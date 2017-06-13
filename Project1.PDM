@@ -1,0 +1,129 @@
+[Root]
+Most Recent Package=Parkir Setup
+
+
+[Package|Parkir Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\Databases\package
+
+[Package|Parkir Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Parkir Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Parkir Setup|Files Found]
+
+[Package|Parkir Setup|Files Released]
+
+[Package|Parkir Setup|Missing Dependency Information]
+C:\Windows\System32\quartz.dll=
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=
+C:\Program Files\Common Files\microsoft shared\OFFICE11\msxml5.dll=
+C:\Windows\System32\ieframe.dll=
+C:\Program Files\Common Files\System\ado\msado27.tlb=
+
+[Package|Parkir Setup|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\comdlg32.ocx=
+C:\Windows\System32\scrrun.dll=
+
+[Package|Parkir Setup|Files Added]
+
+[Package|Parkir Setup|Files Removed]
+c:\windows\system32\crpe32.dll=
+
+[Package|Parkir Setup|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado27.tlb=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\ieframe.dll=Yes
+C:\Windows\System32\scrrun.dll=Yes
+C:\Windows\System32\msvcrt.dll=Yes
+C:\Program Files\Common Files\microsoft shared\OFFICE11\msxml5.dll=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\quartz.dll=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\comdlg32.ocx=Yes
+C:\Windows\System32\Crystl32.OCX=Yes
+C:\Windows\System32\crpe32.dll=No
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\test\parkir new camera\Project1.exe=Yes
+
+[Package|Parkir Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Parkir Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Parkir Setup|Install Locations]
+C:\Users\User\Desktop\test\parkir new camera\Project1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado27.tlb=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\ieframe.dll=$(WinSysPath)
+C:\Windows\System32\scrrun.dll=$(WinSysPath)
+C:\Windows\System32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Common Files\microsoft shared\OFFICE11\msxml5.dll=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\quartz.dll=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\Crystl32.OCX=$(WinSysPath)
+C:\Windows\System32\crpe32.dll=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\test\parkir new camera\Project1.exe=$(AppPath)
+
+[Package|Parkir Setup|Configure Shared Files]
+Applicable=Yes
+C:\Users\User\Desktop\test\parkir new camera\Project1.exe=Yes
+D:\test\parkir new camera\Project1.exe=No
+
+[Package|Parkir Setup|Distribution]
+Type=single
+Size=
+Title=Parkir
+
+[Package|Parkir Setup|IconGroups]
+Group0=Parkir
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Parkir Setup|Parkir]
+Icon1=Project1.exe
+Title1=Parkir
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Parkir Setup|Package]
+PackageFolder=g:\Databases\package
+ProjectFolder=D:\test\parkir new camera
+ServerSideCab=
+File1=g:\Databases\package\setup.exe
+File2=g:\Databases\package\Setup.Lst
+File3=g:\Databases\package\Project1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
